@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 ```
 
 
-## Plotly - 3D plot of mtcars data set
+## Plotly - 3D plot of mtcars dataset
 
 ```{r echo=FALSE}
 library(datasets);library(plotly);library(reshape2)
