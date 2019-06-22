@@ -1,0 +1,41 @@
+---
+title: "Assignment week 3"
+author: "hidai"
+date: "6/22/2019"
+output: ioslides_presentation
+---
+
+
+```{r setup, include=FALSE,message=FALSE,warning=FALSE}
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE,
+	cache = TRUE,
+	tidy = TRUE,
+	tidy.opts = list(width.cutoff = 60)
+)
+```
+
+
+## Plotly - 3D plot of mtcars data set
+
+```{r echo=FALSE}
+library(datasets);library(plotly);library(reshape2)
+data("mtcars") ## Load the mtcars
+mtcars$am[which(mtcars$am == 0)] <- 'Automatic'
+mtcars$am[which(mtcars$am == 1)] <- 'Manual'
+mtcars$am <- as.factor(mtcars$am)
+
+## Plotly command
+plot_ly(mtcars, x = ~wt, y = ~hp, z = ~qsec, color = ~am, colors = c('#BF382A', '#0C4B8E')) %>%
+  add_markers() %>%
+  layout(scene = list(xaxis = list(title = 'Weight'),
+                     yaxis = list(title = 'Gross horsepower'),
+                     zaxis = list(title = '1/4 mile time')))
+
+```
+
+
+
+## Thank You!
