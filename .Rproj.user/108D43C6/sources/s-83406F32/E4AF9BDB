@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1561209808366.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E4AF9BDB",
+    "lastKnownWriteTime" : 1561212521,
+    "last_content_update" : 1561212826421,
+    "path" : "~/productsdat/assignment week 3.Rmd",
+    "project_path" : "assignment week 3.Rmd",
+    "properties" : {
+        "cursorPosition" : "9,22",
+        "last_setup_crc32" : "83406F326e9939d7",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
